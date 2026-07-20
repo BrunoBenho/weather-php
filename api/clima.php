@@ -9,7 +9,7 @@ $url = 'https://api.hgbrasil.com/weather';
 
 $queryString = http_build_query([
     'city_name' => $cidade,
-    'key' => 'fc7cd475'
+    'key' => 'COLOQUE_SUA_KEY'
 ]);
 
 $response = file_get_contents($url . '?' . $queryString);
