@@ -1,1 +1,158 @@
+<<<<<<< HEAD
 
+=======
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            display: flex;
+            justify-content: center;
+            padding: 40px 16px;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 480px;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            margin: 0 0 24px;
+            text-align: center;
+            color: #1e3a5f;
+            font-size: 1.8rem;
+        }
+
+        p.label {
+            margin: 0 0 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        form input[type="text"] {
+            flex: 1;
+            padding: 10px 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        form input[type="text"]:focus {
+            outline: none;
+            border-color: #4facfe;
+            box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.2);
+        }
+
+        form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #1e88e5;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        form button:hover {
+            background: #1565c0;
+        }
+
+        .resultado {
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            margin-top: 8px;
+        }
+
+        .resultado h2 {
+            margin: 0 0 16px;
+            color: #1e3a5f;
+            text-align: center;
+        }
+
+        .resultado p {
+            margin: 8px 0;
+            color: #444;
+            font-size: 1rem;
+        }
+
+        .resultado p strong {
+            color: #1e88e5;
+        }
+
+        .resultado {
+            animation: entrada 0.4s ease;
+        }
+
+        @keyframes entrada {
+            from { opacity: 0; transform: translateY(10px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        #icone-clima {
+            font-size: 1.4rem;
+            margin-right: 6px;
+        }
+
+        form button:disabled {
+            background: #90caf9;
+            cursor: not-allowed;
+        }
+
+        .previsao {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+
+        .previsao-dia {
+            flex: 1 0 90px;
+            background: #f5f9ff;
+            border-radius: 12px;
+            padding: 12px 8px;
+            text-align: center;
+        }
+
+        .previsao-dia .weekday {
+            font-weight: 600;
+            color: #1e3a5f;
+            text-transform: capitalize;
+        }
+
+        .previsao-dia .data {
+            font-size: 0.75rem;
+            color: #888;
+            margin-bottom: 6px;
+        }
+
+        .previsao-dia .icone {
+            font-size: 1.5rem;
+            display: block;
+            margin: 4px 0;
+        }
+
+        .previsao-dia .max {
+            font-weight: 600;
+            color: #1e88e5;
+        }
+
+        .previsao-dia .min {
+            color: #888;
+        }
+>>>>>>> 067ebd8 (finalizado)
